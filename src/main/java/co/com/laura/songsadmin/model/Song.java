@@ -21,6 +21,16 @@ public class Song {
 		this.lyric = lyric;
 		this.image = image;
 	}
+	
+	public Song(String title, String artist, String genre, String album, String lyric, String image) {
+		super();
+		this.title = title;
+		this.artist = artist;
+		this.genre = genre;
+		this.album = album;
+		this.lyric = lyric;
+		this.image = image;
+	}
 	public Long getId() {
 		return id;
 	}
